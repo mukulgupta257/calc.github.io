@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* for complete calculator body */
+.calculator{
+    display: flex;
+    flex-direction: column;
+}
+/* display box */
+.display-box{
+    width: 100vw;
+    height: 20vh;
+}
+.display-box input{
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-size: 4em;
+}
+/* calculator body */
+.calc-body{
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.calc-body button{
+    font-size: larger;
+    height: 20vh;
+    width: 100%;
+}
+.calc-body button:hover{
+    font-size: larger;
+    height: 20vh;
+    width: 100%;
+    background-color: #ffa500;
+}
